@@ -32,10 +32,6 @@ public class App {
         Connection conn = DB.sql2o.open();
         Gson gson = new Gson();
 
-        get("/", "application/json", (req, res) -> { //accept a request in format JSON from an app
-            res.type("application/json");
-            return "{\"Add user\":\"/users/new\",\"Add department\":\"/departments/new\",\"Post news\":\"/news/post\",\"show users\":\"/users\",\"show departments\":\"/departments\",\"show news\":\"/news\",\"show department news\":\"/departments/:id/news\",\"show department users\":\"/departments/:id/users\"}";
-        });
 //        Viewing users and adding users
         get("/users", "application/json", (req, res) -> { //accept a request in format JSON from an app
             res.type("application/json");
