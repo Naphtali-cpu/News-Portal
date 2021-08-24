@@ -12,8 +12,9 @@ So far there are no contributors in this project.
 
 ## Behaviour Driven Development(BDD)
 * Clone the github repository on terminal: git clone https://github.com/Naphtali-cpu/News-Portal.git
+#### Adding and viewing users.
 * Head on to postman, add path for adding users https://naphnews.herokuapp.com/users/new enter JSON data.
-* 
+* To view users use get method on 
 
 
 ## Technologies Used
