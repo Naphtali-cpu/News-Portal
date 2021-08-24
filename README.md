@@ -1,4 +1,4 @@
-#News Portal
+# News Portal
 ## Author
 Naphtali Makori
 
