@@ -22,7 +22,7 @@ public class App {
         if (processBuilder.environment().get("PORT") != null) {
             return Integer.parseInt(processBuilder.environment().get("PORT"));
         }
-        return 4567; //return default port if heroku-port isn't set (i.e. on localhost)
+        return 4567;
     }
     public static void main(String[] args) {
         port(getHerokuAssignedPort());
@@ -33,9 +33,9 @@ public class App {
         Gson gson = new Gson();
 
 //        Viewing users and adding users
-        get("/users", "application/json", (req, res) -> { //accept a request in format JSON from an app
+        get("/users", "application/json", (req, res) -> {
             res.type("application/json");
-            return gson.toJson(userDao.getAll());//send it back to be displayed
+            return gson.toJson(userDao.getAll());
 
         });
 
@@ -171,9 +171,9 @@ public class App {
             Map<String, Object> jsonMap = new HashMap<>();
             jsonMap.put("status", err.getStatusCode());
             jsonMap.put("errorMessage", err.getMessage());
-            res.type("application/json"); //after does not run in case of an exception.
-            res.status(err.getStatusCode()); //set the status
-            res.body(gson.toJson(jsonMap));  //set the output.
+            res.type("application/json");
+            res.status(err.getStatusCode());
+            res.body(gson.toJson(jsonMap));
         });
 
         after((req, res) ->{
