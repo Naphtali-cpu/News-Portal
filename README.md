@@ -11,7 +11,7 @@ This is a java application that allow users to add news, department, add users o
 So far there are no contributors in this project.
 
 ## Behaviour Driven Development(BDD)
-* Clone the github repository
+* Clone the github repository on terminal: git clone https://github.com/Naphtali-cpu/News-Portal.git
 
 
 ## Technologies Used
