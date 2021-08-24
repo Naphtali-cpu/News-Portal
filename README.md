@@ -18,6 +18,9 @@ So far there are no contributors in this project.
 #### Adding news and viewing news
 * Add post method with https://naphnews.herokuapp.com/news/post and add JSON data.
 * To view use get method on postman using https://naphnews.herokuapp.com/news
+#### Adding department and viewing departments
+* Add post method with https://naphnews.herokuapp.com/department/new and add JSON data.
+* To view use get method on postman using https://naphnews.herokuapp.com/department
 
 
 ## Technologies Used
