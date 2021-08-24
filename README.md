@@ -15,6 +15,9 @@ So far there are no contributors in this project.
 #### Adding and viewing users.
 * Head on to postman, add path for adding users https://naphnews.herokuapp.com/users/new enter JSON data.
 * To view users use get method on https://naphnews.herokuapp.com/users
+#### Adding news and viewing news
+* Add post method with https://naphnews.herokuapp.com/news/post and add JSON data.
+* To view use get method on postman using https://naphnews.herokuapp.com/news
 
 
 ## Technologies Used
