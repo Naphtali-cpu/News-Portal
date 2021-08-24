@@ -24,9 +24,7 @@ So far there are no contributors in this project.
 
 
 ## Technologies Used
-
 * Java
-* Handlebars
 
 ## Contact Information
 
